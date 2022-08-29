@@ -29,7 +29,7 @@ DEBUG = config('DEBUG') #str(config('DEBUG'))=="1"
 #ENV_ALLOWED_HOST=config("ENV_ALLOWED_HOST")
 
 #if ENV_ALLOWED_HOST:
-ALLOWED_HOSTS = [config("ALLOWED_HOSTS")]
+ALLOWED_HOSTS =["*"]
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'channels',
+    'chat'
 ]
 
 MIDDLEWARE = [
