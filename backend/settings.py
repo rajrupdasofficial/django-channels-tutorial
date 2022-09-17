@@ -87,7 +87,12 @@ DATABASES = {
         'HOST':config('DB_HOST'),
         'PASSWORD':config('DB_PASSWORD'),
         'PORT':config('DB_PORT'),
+        'TEST':{
+            'ENGINE':'django.db.backends.sqlite3',
+            'NAME':os.path.join(BASE_DIR,'db_test.sqlite3'),
+        }
     }
+
 }
 
 
