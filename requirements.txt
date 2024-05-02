@@ -19,7 +19,7 @@ django-redis==5.2.0
 h11==0.13.0
 hiredis==2.0.0
 hyperlink==21.0.0
-idna==3.3
+idna==3.7
 incremental==21.3.0
 msgpack==1.0.4
 outcome==1.2.0
